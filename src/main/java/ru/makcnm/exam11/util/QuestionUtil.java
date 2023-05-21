@@ -53,10 +53,6 @@ public class QuestionUtil {
             case "Вариант" -> {
                 File variant = new File(Constants.LESSON_DIR + lessonName + "/" + number);
                 Collection<File> variantQuestions = sortFilesByNum(Arrays.asList(variant.listFiles()));
-                for (File file : variantQuestions) {
-                    System.out.println(file.getName());
-                }
-                System.out.println("гав ufdsg ");
                 questions.addAll(variantQuestions.stream().map(file -> new Question(file, getQuestionAnswer(file), "")).toList());
             }
 
