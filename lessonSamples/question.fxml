@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #EAEEEF; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-15.0" prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #4F6C77; -fx-background-radius: 10;">
+         <children>
+            <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задание 1">
+               <font>
+                  <Font name="Carlito Bold" size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="nextButton" layoutX="570.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#nextButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Далее">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="endButton" layoutX="440.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#endButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Закончить">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="310.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#backButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Назад">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="answerField" layoutX="86.0" layoutY="463.0" prefHeight="26.0" prefWidth="605.0" />
+      <Text layoutX="14.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:">
+         <font>
+            <Font name="Carlito Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextArea accessibleRole="TEXT" editable="false" layoutY="70.0" prefHeight="380.0" prefWidth="700.0" style="-fx-border-color: #EAEEEF;" text="Text" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
+<!-- answer= -->

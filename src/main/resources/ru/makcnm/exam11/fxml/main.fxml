@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #EAEEEF; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane layoutY="-15.0" prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #4F6C77; -fx-background-radius: 10;">
+      <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exam11">
+         <font>
+            <Font name="Carlito Bold" size="48.0" />
+         </font>
+      </Text>
+   </AnchorPane>
+   <ChoiceBox fx:id="choiceLesson" layoutX="200.0" layoutY="130.0" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #9EABB3; -fx-background-radius: 5;" value="Выберите предмет">
+
+   </ChoiceBox>
+   <ChoiceBox fx:id="choiceAction" layoutX="200.0" layoutY="210.0" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #9EABB3; -fx-background-radius: 5;" value="Выполнить вариант/задание">
+      
+   </ChoiceBox>
+   <ChoiceBox fx:id="choiceNumber" layoutX="200.0" layoutY="290.0" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #9EABB3; -fx-background-radius: 5;" value="Номер">
+
+   </ChoiceBox>
+   <Button fx:id="startButton" layoutX="275.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#startButtonClickEvent" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Начать">
+      <font>
+         <Font name="Carlito Bold" size="32.0" />
+      </font>
+   </Button>
+</AnchorPane>

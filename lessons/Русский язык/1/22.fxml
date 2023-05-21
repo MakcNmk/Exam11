@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #EAEEEF; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-15.0" prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #4F6C77; -fx-background-radius: 10;">
+         <children>
+            <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задание 22">
+               <font>
+                  <Font name="Carlito Bold" size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="nextButton" layoutX="570.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#nextButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Далее">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="endButton" layoutX="440.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#endButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Закончить">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="310.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#backButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Назад">
+               <font>
+                  <Font name="Carlito Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="answerField" layoutX="86.0" layoutY="463.0" prefHeight="26.0" prefWidth="605.0" />
+      <Text layoutX="14.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:">
+         <font>
+            <Font name="Carlito Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextArea accessibleRole="TEXT" editable="false" layoutY="70.0" prefHeight="380.0" prefWidth="700.0" style="-fx-border-color: #EAEEEF;" text="Какие из высказываний соответствуют содержанию текста? Укажите номера ответов.&#10;Цифры укажите в порядке возрастания.&#10;&#10;1)  Рассказчик был сиротой.&#10;2)  В детстве эта мелодия вызывала другие чувства.&#10;3)  Это музыкальное произведение было написано на прощание с Родиной.&#10;4)  Полонез вызвал у автора желание заплакать и стать маленьким.&#10;5)  Вася-поляк знал лично композитора и автора этой мелодии.&#10;&#10;(1)На задворках нашего села стояло на сваях длинное помещение из досок. (2)Я первый раз в жизни здесь услышал музыку  — скрипку. (3)На ней играл Вася-поляк. (4)О чём мне рассказывала музыка? (5)О чём-то очень большом. (6)На что же это жаловалась она, на кого гневалась? (7)Тревожно и горько мне. (8)Хочется заплакать, оттого что мне жалко самого себя, жалко тех, что спят непробудным сном на кладбище!&#10;&#10;(9)Вася, не переставая играть, говорил: «(10)Эту музыку написал человек, которого лишили самого дорогого. (11)Если у человека нет матери, нет отца, но есть родина, он ещё не сирота. (12)Всё проходит: любовь, сожаление о ней, горечь утрат, даже боль от ран,  — но никогда не проходит и не гаснет тоска по родине. (13)Эту музыку написал мой земляк Огинский. (14)Написал на границе, прощаясь с родиной. (15)Он посылал ей последний привет. (16)Давно уже нет композитора на свете, но боль его, тоска его, любовь к родной земле, которую никто не может отнять, жива до сих пор».&#10;&#10;(17)«Спасибо вам, дяденька»,  — прошептал я. (18)«За что, мальчик?»  — (19)«3а то, что я не сирота». (20)Восторженными слезами благодарил я Васю, этот мир ночной, спящее село, а также спящий за ним лес. (21)В эти минуты не было для меня зла. (22)Мир был добр и одинок так же, как я. (23)Во мне звучала музыка о неистребимой любви к родине! (24)Енисей, не спящий даже ночью, молчаливое село за моей спиной, кузнечик, из последних сил работающий наперекор осени в крапиве, отливающей металлом,  — это была моя родина.&#10;&#10;(25)...Прошло много лет. (26)И вот однажды в конце войны я стоял возле пушек в разрушенном польском городе. (27)Кругом пахло гарью, пылью. (28)И вдруг в доме, расположенном через улицу от меня, раздались звуки органа. (29)Эта музыка разбередила воспоминания. (30)Когда-то мне хотелось умереть от непонятной печали и восторга после того, как я послушал полонез Огинского. (31)Но теперь та же музыка, которую я слушал в детстве, преломилась во мне и закаменела, особенно та её часть, от которой я плакал когда-то. (32)Музыка так же, как и в ту далёкую ночь, хватала за горло, но не выжимала слёз, не прорастала жалостью. (33)Она звала куда-то, заставляла что-нибудь делать, чтобы потухли эти пожары, чтобы люди не ютились в горящих развалинах, чтобы небо не подбрасывало взрывами. (34)Музыка властвовала над оцепеневшим от горя городом, та самая музыка, которую, как вздох своей земли, хранил в сердце человек, никогда не видавший родины и всю жизнь тосковавший о ней.&#10;&#10;(По В. Астафьеву*)" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
+<!-- answer=123 -->
