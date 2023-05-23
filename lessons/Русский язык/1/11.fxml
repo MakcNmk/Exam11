@@ -18,17 +18,17 @@
             </Text>
             <Button fx:id="nextButton" layoutX="570.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#nextButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Далее">
                <font>
-                  <Font name="Carlito Bold" size="20.0" />
+                  <Font size="19.0" />
                </font>
             </Button>
             <Button fx:id="endButton" layoutX="440.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#endButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Закончить">
                <font>
-                  <Font name="Carlito Bold" size="20.0" />
+                  <Font size="19.0" />
                </font>
             </Button>
             <Button fx:id="backButton" layoutX="310.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#backButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Назад">
                <font>
-                  <Font name="Carlito Bold" size="20.0" />
+                  <Font size="19.0" />
                </font>
             </Button>
          </children>
