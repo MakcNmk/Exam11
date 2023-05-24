@@ -7,13 +7,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<!-- answer=245 -->
+<!-- answer=14 -->
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #EAEEEF; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane layoutY="-15.0" prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #4F6C77; -fx-background-radius: 10;">
          <children>
-            <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задание 2">
+            <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задание 25">
                <font>
                   <Font name="Carlito Bold" size="48.0" />
                </font>
@@ -41,7 +41,7 @@
             <Font name="Carlito Bold" size="24.0" />
          </font>
       </Text>
-      <TextArea accessibleRole="TEXT" editable="false" layoutY="70.0" prefHeight="380.0" prefWidth="700.0" style="-fx-border-color: #EAEEEF;" text="В тексте выделено пять слов. Укажите варианты ответов, в которых лексическое значение выделенного слова соответствует его значению в данном тексте. Запишите номера ответов.&#10;&#10;1)  ФИГУРА. Положение, принимаемое кем-чем-нибудь при исполнении чего-нибудь в движении (в танце, при полёте, в воздухе). Фигуры высшего пилотажа.&#10;2)  ВИД. Внешность, видимый облик; состояние. Здоровый вид.&#10;3)  ВКЛЮЧАТЬ. Привести в действие. Включите свет.&#10;4)  СОСТА́ВИТЬ. Собрав материал, сделав сводку какого-н. материала, образовать, создать (какое-н. пособие, книгу, доклад, список чего-н. и т. п.). С. список кандидатов. С. доклад. С. словарь. С. сводку. С. проект.&#10;5)  ВЫДЕЛЯТЬ. Отмечать, отличать что-нибудь. Выделять главное особым шрифтом." wrapText="true">
+      <TextArea accessibleRole="TEXT" editable="false" layoutY="70.0" prefHeight="380.0" prefWidth="700.0" style="-fx-border-color: #EAEEEF;" text="Среди предложений 11—18 найдите такое(-ие), которое(-ые) связано(-ы) с предыдущим при помощи притяжательного местоимения. Напишите номер(-а) этого(-их) предложения(-ий)." wrapText="true">
          <font>
             <Font size="14.0" />
          </font>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!-- answer=46975 -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #EAEEEF; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="-15.0" prefHeight="90.0" prefWidth="700.0" style="-fx-background-color: #4F6C77; -fx-background-radius: 10;">
+         <children>
+            <Text layoutX="15.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задание 8">
+               <font>
+                  <Font name="Carlito Bold" size="48.0" />
+               </font>
+            </Text>
+            <Button fx:id="nextButton" layoutX="570.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#nextButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Далее">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="endButton" layoutX="440.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#endButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Закончить">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="310.0" layoutY="27.0" mnemonicParsing="false" onMouseClicked="#backButtonClickEvent" prefHeight="48.0" prefWidth="119.0" style="-fx-background-color: #A7C4D4; -fx-background-radius: 20;" text="Назад">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="answerField" layoutX="86.0" layoutY="463.0" prefHeight="26.0" prefWidth="605.0" />
+      <Text layoutX="14.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:">
+         <font>
+            <Font name="Carlito Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextArea accessibleRole="TEXT" editable="false" layoutY="70.0" prefHeight="380.0" prefWidth="700.0" style="-fx-border-color: #EAEEEF;" text="Установите соответствие между грамматическими ошибками и предложениями, в которых они допущены: к каждой позиции первого столбца подберите соответствующую позицию из второго столбца.&#10;&#10;ГРАММАТИЧЕСКИЕ ОШИБКИ&#10;А)  неправильный выбор предложно-падежной формы существительного.&#10;Б)  нарушение в построении предложения с несогласованным приложением&#10;В)  неправильное построение предложения с деепричастным оборотом&#10;Г)  неправильное построение предложения с причастным оборотом&#10;Д)  нарушение в построении предложения с однородными членами&#10;&#10;ПРЕДЛОЖЕНИЯ&#10;1)  Рассматривая антикварные вещи, понимаешь, как много ценного они хранят.&#10;2)  Мотив безумия в романе «Мастер и Маргарита» тесно связан с мотивом беззвучия.&#10;3)  Исследуя нравственные изъяны современного общества, В. Пьецух в своих произведениях часто обращается к классическим сюжетам и классическим героям, отмечая, что «фабульная основа – категория бессмертная».&#10;4)  М. Веллер пишет: «Шукшин не судит героев, а понимает их, и это даёт двойственный взгляд о предмете рассказа».&#10;5)  Платонов в повести «Котлован» не только ведёт спор с философией Нового времени на уровне содержания, но и на уровне формы.&#10;6)  Долгое время вопрос о датировке поэмы Есенина «Чёрном человеке» оставался дискуссионным.&#10;7)  В мировой литературе есть огромное количество произведений, посвящённым женщине.&#10;8)  Приятно смотреть со стороны, когда по морю плывёт корабль, окрылённый белыми парусами, словно лебедь.&#10;9)  Закончив все сборы, по громкой связи было объявлено о том, что на первом этаже корпуса №1 состоится общая заключительная встреча.&#10;&#10;Запишите в ответ цифры, расположив их в порядке, соответствующем буквам: АБВГД" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
