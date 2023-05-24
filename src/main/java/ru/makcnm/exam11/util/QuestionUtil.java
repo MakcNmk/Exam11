@@ -40,6 +40,9 @@ public class QuestionUtil {
                             numbers.add(onlyName);
                     }
                 }
+                System.out.println(numbers);
+                numbers.sort(Comparator.comparing(Integer::valueOf));
+                System.out.println(numbers);
             }
         }
 

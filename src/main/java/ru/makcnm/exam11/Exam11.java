@@ -69,7 +69,6 @@ public class Exam11 extends Application {
                 ArrayList<String> numbers = QuestionUtil.getNumbers(lessonName, actionName);
                 if (numbers == null) return;
                 choiceNumber.getItems().clear();
-                Collections.sort(numbers);
                 choiceNumber.getItems().addAll(numbers.toArray());
             });
 
